@@ -2,9 +2,9 @@
 
 namespace MMTE\MyTestPackage;
 
+use MMTE\MyTestPackage\Commands\MyTestPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use MMTE\MyTestPackage\Commands\MyTestPackageCommand;
 
 class MyTestPackageServiceProvider extends PackageServiceProvider
 {

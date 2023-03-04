@@ -3,8 +3,8 @@
 namespace MMTE\MyTestPackage\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use MMTE\MyTestPackage\MyTestPackageServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
