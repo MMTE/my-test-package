@@ -1,24 +1,15 @@
-# :package_description
+# This is my package my-test-package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-<!--delete-->
----
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mmte/my-test-package.svg?style=flat-square)](https://packagist.org/packages/mmte/my-test-package)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/mmte/my-test-package/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/mmte/my-test-package/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/mmte/my-test-package/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/mmte/my-test-package/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/mmte/my-test-package.svg?style=flat-square)](https://packagist.org/packages/mmte/my-test-package)
 
-1. Press the "Use this template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files.
-3. Have fun creating your package.
-4. If you need help creating a package, consider picking up our <a href="https://laravelpackage.training">Laravel Package Training</a> video course.
----
-<!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/:package_name.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/:package_name)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/my-test-package.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/my-test-package)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -29,20 +20,20 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require mmte/my-test-package
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-migrations"
+php artisan vendor:publish --tag="my-test-package-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-config"
+php artisan vendor:publish --tag="my-test-package-config"
 ```
 
 This is the contents of the published config file:
@@ -55,14 +46,14 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-views"
+php artisan vendor:publish --tag="my-test-package-views"
 ```
 
 ## Usage
 
 ```php
-$variable = new VendorName\Skeleton();
-echo $variable->echoPhrase('Hello, VendorName!');
+$myTestPackage = new MMTE\MyTestPackage();
+echo $myTestPackage->echoPhrase('Hello, MMTE!');
 ```
 
 ## Testing
@@ -85,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [MMTE](https://github.com/MMTE)
 - [All Contributors](../../contributors)
 
 ## License
